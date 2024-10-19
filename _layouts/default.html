@@ -19,12 +19,14 @@
   <body>
     <div style="background-image: url('{{ "/assets/images/frbs.jpg" | relative_url }}'); background-size: cover; background-position: center; min-height: 100vh;">
     <header>
-      <div class="inner">
+      <div class="inner" style="position: relative; padding: 20px;">
+        <img src="{{ "/assets/images/my_PHOTO.JPG" | relative_url }}" alt="Profile Image" 
+               style="position: absolute; top: 20px; left: 20px; border-radius: 50%; width: 60px; height: 60px; border: 2px solid white;">
         <a href="{{ '/' | absolute_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <img src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="Profile Image" style="border-radius: 50%; width: 60px; height: 60px; margin-left: auto; border: 2px solid white;">
+       
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
