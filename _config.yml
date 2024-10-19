@@ -1,0 +1,18 @@
+# Site settings
+title: "AJAY KUMAR"
+description: "This is my peronal webpage"
+url: "https://ajay2609.github.io"  # Your GitHub Pages URL or custom domain
+baseurl: ""  # Leave blank for root or use "/repository-name" for project site
+author: 
+  name: "AJAY KUMAR"
+  email: "ajaypal1170@gmail.com"
+  
+# Build settings
+theme: Architect  # You can change this to any other theme available on GitHub Pages or custom theme
+plugins:
+  - jekyll-feed   # This adds RSS feed functionality
+  
+# Deployment settings
+markdown: kramdown  # Markdown engine
+highlighter: rouge  # Syntax highlighter
+permalink: pretty   # Clean URLs without .html at the end
