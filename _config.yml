@@ -8,7 +8,7 @@ author:
   email: "ajaypal1170@gmail.com"
   
 # Build settings
-theme: Architect  # You can change this to any other theme available on GitHub Pages or custom theme
+theme: architect  # You can change this to any other theme available on GitHub Pages or custom theme
 plugins:
   - jekyll-feed   # This adds RSS feed functionality
   
