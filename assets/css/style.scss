@@ -3,43 +3,47 @@
 
 @import "jekyll-theme-architect";
 
-/* Custom Text Colors - High Contrast for Grey Background */
+/* Custom Text Colors - Yellow text with Times New Roman headings */
 body {
-  color: #1a1a1a;
+  color: #f1c40f;
 }
 
 #main-content {
   padding: 20px;
 }
 
+#main-content h1, #main-content h2, #main-content h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
 #main-content h1 {
-  color: #c0392b;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  color: #e74c3c;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 #main-content h2 {
-  color: #8e44ad;
+  color: #9b59b6;
 }
 
 #main-content h3 {
-  color: #d35400;
+  color: #e67e22;
 }
 
 #main-content p {
-  color: #1a1a1a;
+  color: #f1c40f;
 }
 
 #main-content li {
-  color: #1a1a1a;
+  color: #f1c40f;
 }
 
 #main-content strong {
-  color: #27ae60;
+  color: #2ecc71;
 }
 
 /* Links styling */
 a {
-  color: #2980b9;
+  color: #3498db;
   font-weight: 500;
 }
 
@@ -53,5 +57,5 @@ a:hover {
 }
 
 #sidebar p, #sidebar a {
-  color: #2c3e50;
+  color: #f1c40f;
 }
