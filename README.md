@@ -1,6 +1,6 @@
-# Welcome to My Website
-
 ## About Me
+
+<img src="assets/images/my_photo.JPG" alt="Ajay Kumar" style="float: right; width: 180px; border-radius: 10px; margin-left: 20px; margin-bottom: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
 
 I am a radio astronomer with a deep fascination for highly energetic events in the Universe. My research primarily focuses on **Fast Radio Bursts (FRBs)**, one of the most mysterious phenomena in modern astronomy. These brief but powerful flashes of radio waves from distant galaxies continue to puzzle scientists, and I'm dedicated to unraveling their origins.
 
