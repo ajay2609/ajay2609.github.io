@@ -1,6 +1,18 @@
-# ajay2609.github.io
-I am a radio astronomer interested in highly energetic events in the Universe. My research is particularly focused on 
-Fast Radio Bursts, but I am also interested in searching for and understanding the nature of pulsars (a special kind of neutron star).
-The origin of Fast Radio Bursts is still known but astronomers are working to unveil the mystery.
-Thanks for all the help. 
+# Welcome to My Website
+
+## About Me
+
+I am a radio astronomer with a deep fascination for highly energetic events in the Universe. My research primarily focuses on **Fast Radio Bursts (FRBs)**, one of the most mysterious phenomena in modern astronomy. These brief but powerful flashes of radio waves from distant galaxies continue to puzzle scientists, and I'm dedicated to unraveling their origins.
+
+In addition to FRBs, I actively work on searching for and understanding **pulsars** – rapidly rotating neutron stars that emit beams of electromagnetic radiation. These cosmic lighthouses provide unique insights into extreme physics and the nature of matter under conditions impossible to replicate on Earth.
+
+### Research Interests
+- Fast Radio Bursts (FRBs)
+- Pulsars 
+- Transient astronomical phenomena
+- Radio astronomy techniques and observations
+
+### Contact
+Feel free to reach out to me at [ajaypal1170@gmail.com](mailto:ajaypal1170@gmail.com) to discuss research collaborations or questions about radio transients. 
+
 
