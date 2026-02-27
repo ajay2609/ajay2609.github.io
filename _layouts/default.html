@@ -19,45 +19,45 @@
   <body>
     <div style="background-image: url('{{ "/assets/images/webiste_nackground.jfif" | relative_url }}'); background-size: cover; background-position: center; min-height: 100vh;">
     
-    <!-- Top Header with Photo and Name -->
-    <header style="background: rgba(0,0,0,0.75); padding: 30px 40px;">
-      <div style="display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
-        <div style="flex: 0 0 200px; display: flex; justify-content: center;">
-          <img src="{{ "/assets/images/my_photo.JPG" | relative_url }}" alt="Profile Image" 
-               style="border-radius: 50%; width: 200px; height: 200px; border: 4px solid #fff; object-fit: cover; box-shadow: 0 15px 35px rgba(0,0,0,0.35);">
-        </div>
-        <div style="flex: 1; text-align: right; min-width: 240px;">
-          <a href="{{ '/' | absolute_url }}" style="text-decoration: none;">
-            <h1 style="margin: 0; color: #f4f7ff; font-size: 2.1em;">{{ site.title | default: site.github.repository_name }}</h1>
-          </a>
-          <p style="margin: 10px 0 0 0; color: #d6e6ff; font-size: 1.05em;">{{ site.description | default: site.github.project_tagline }}</p>
-        </div>
-      </div>
-    </header>
-
     <!-- Navigation Tab Bar -->
     <nav style="background: rgba(50,50,50,0.9); padding: 0;">
       <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; flex-wrap: wrap;">
         <li style="margin: 0;">
-          <a href="{{ '/' | absolute_url }}" style="display: block; padding: 15px 25px; color: #fff; text-decoration: none; font-weight: 500; transition: background 0.3s;">Home</a>
+          <a href="{{ '/' | absolute_url }}" style="display: block; padding: 15px 25px; color: #ffe8a3; text-decoration: none; font-weight: 500; transition: background 0.3s;">Home</a>
         </li>
         <li style="margin: 0;">
-          <a href="{{ '/research' | absolute_url }}" style="display: block; padding: 15px 25px; color: #fff; text-decoration: none; font-weight: 500; transition: background 0.3s;">Research</a>
+          <a href="{{ '/research' | absolute_url }}" style="display: block; padding: 15px 25px; color: #ffe8a3; text-decoration: none; font-weight: 500; transition: background 0.3s;">Research</a>
         </li>
         <li style="margin: 0;">
-          <a href="{{ '/publications' | absolute_url }}" style="display: block; padding: 15px 25px; color: #fff; text-decoration: none; font-weight: 500; transition: background 0.3s;">Publications</a>
+          <a href="{{ '/publications' | absolute_url }}" style="display: block; padding: 15px 25px; color: #ffe8a3; text-decoration: none; font-weight: 500; transition: background 0.3s;">Publications</a>
         </li>
         <li style="margin: 0;">
-          <a href="{{ '/cv' | absolute_url }}" style="display: block; padding: 15px 25px; color: #fff; text-decoration: none; font-weight: 500; transition: background 0.3s;">CV</a>
+          <a href="{{ '/cv' | absolute_url }}" style="display: block; padding: 15px 25px; color: #ffe8a3; text-decoration: none; font-weight: 500; transition: background 0.3s;">CV</a>
         </li>
         <li style="margin: 0;">
-          <a href="{{ '/cycling' | absolute_url }}" style="display: block; padding: 15px 25px; color: #fff; text-decoration: none; font-weight: 500; transition: background 0.3s;">Cycling</a>
+          <a href="{{ '/cycling' | absolute_url }}" style="display: block; padding: 15px 25px; color: #ffe8a3; text-decoration: none; font-weight: 500; transition: background 0.3s;">Cycling</a>
         </li>
         <li style="margin: 0;">
-          <a href="{{ '/deep-learning' | absolute_url }}" style="display: block; padding: 15px 25px; color: #fff; text-decoration: none; font-weight: 500; transition: background 0.3s;">Deep Learning</a>
+          <a href="{{ '/deep-learning' | absolute_url }}" style="display: block; padding: 15px 25px; color: #ffe8a3; text-decoration: none; font-weight: 500; transition: background 0.3s;">Deep Learning</a>
         </li>
       </ul>
     </nav>
+
+    <!-- Profile Hero -->
+    <header style="background: rgba(0,0,0,0.78); padding: 40px 12vw 50px;">
+      <div style="display: flex; align-items: center; gap: 60px; flex-wrap: wrap;">
+        <div style="flex: 0 0 260px; max-width: 260px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px;">
+          <img src="{{ "/assets/images/my_photo.JPG" | relative_url }}" alt="Profile Image"
+               style="border-radius: 50%; width: 230px; height: 230px; border: 4px solid #fff; object-fit: cover; box-shadow: 0 20px 45px rgba(0,0,0,0.45);">
+          <a href="{{ '/' | absolute_url }}" style="text-decoration: none;">
+            <h1 style="margin: 0; color: #ffd447; font-size: 2.25em; letter-spacing: 0.03em;">{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+        </div>
+        <div style="flex: 1; min-width: 260px; color: #ffb347; font-size: 1.1em; line-height: 1.7; text-align: left;">
+          <p style="margin: 0; text-shadow: 0 6px 20px rgba(0,0,0,0.45);">{{ site.description | default: site.github.project_tagline }}</p>
+        </div>
+      </div>
+    </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -84,6 +84,7 @@
           <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
         </aside>
       </div>
+    </div>
     </div>
 
   </body>
